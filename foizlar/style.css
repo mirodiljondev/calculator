@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+}
+
+.karta {
+    display: flex;
+    border-radius: 10px;
+    padding: 14px;
+    margin: 200px;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.oq {
+    background-color: #FFFFFF;
+    padding: 10px 24px 10px 10px;
+    font-family: space mono;
+
+
+}
+
+.qora {
+    background-color: #00474B;
+    padding: 29px;
+    font-family: space mono;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+.umumiy {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C5E4E7;
+    gap: 18px;
+    font-size: smaller;
+}
+
+button {
+    background-color: #00474C;
+    border-radius: 5px;
+    font-family: space mono;
+    border: 0;
+    padding: 5px 20px;
+    color: #E6F9FC;
+    font-size: large;
+}
+
+.O {
+    background-color: #F3F8FB;
+    border: 0;
+    /* padding: 0 130px; */
+    color: black;
+
+}
+
+.qw {
+    margin-bottom: 10px;
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.sa {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.za {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.C {
+    background-color: #F3F8FB;
+    color: #516969;
+    padding: 6px 8px;
+    font-weight: 700;
+}
+
+.uy {
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+.qwerty {
+    background-color: #0D686D;
+    /* padding: 2px 130px; */
+    color: #055E64;
+    padding: 10px 118px;
+
+}
+
+.o {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    color: #00474B;
+    background-color: #E6F9FC;
+    font-size: larger;
+}
+
+i {
+    margin-top: 4px;
+
+    color: #A0BDBE;
+    font-size: 20px;
+}
+
+.calc {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F8FB;
+    padding: 10px 10px;
+    border-radius: 8px;
+    color: #A0BDBE;
+}
+
+.u {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+p {
+    display: flex;
+    align-items: start;
+    color: #4C858B;
+    font-size: 10px;
+}
+
+h2 {
+    color: #27BCA8;
+}
+
+.asd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dsa {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qwer {
+    color: #27BCA8;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.rew {
+    display: flex;
+    margin: 1px;
+    gap: 8px;
+}
+
+.calk {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F8FB;
+    padding: 14px 5px;
+    border-radius: 5px;
+    color: #A0BDBE;
+    padding: 9px;
+
+}
+
+.wer {
+    display: flex;
+    margin: 10px;
+    margin: 0;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.wer>button {
+    flex: 1;
+}
+
+.rew>button {
+    flex: 1;
+}
+
+input {
+    font-size: larger;
+
+}
+
+h3 {
+    font-size: 15px;
+
+}
+
+p {
+    font-size: 20px;
+}
+@media screen and (max-width:720px){
+    .karta{
+        flex-direction: column;
+    }
+
+    .rew{
+        color: #A0BDBE;
+    }
+}
